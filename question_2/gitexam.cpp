@@ -33,6 +33,12 @@ class calc
 			result=n1/n2;
 			cout<<"Result is : "<<result;
 		}
+    void pwr(int n1,int n2)
+		{
+      //Power function added in calculator in third commit
+			result=pow(n1,n2);
+			cout<<"Result is : "<<result;
+		}
 };
 
 int main()
@@ -41,7 +47,10 @@ int main()
 	int num1,num2;
 	calc c;
   //object created
-		cout<<endl<<endl<<"1.Addition"<<endl<<"2. Subtraction"<<endl<<"3. Multiplication"<<endl<<"4. Division"<<endl;
+  while(1)
+	{
+    //Infinite loop added to terminate the program according to user will in commit 3
+		cout<<endl<<endl<<"1.Addition"<<endl<<"2. Subtraction"<<endl<<"3. Multiplication"<<endl<<"4. Division"<<endl<<"5. Power"<<endl<<endl<<"0.Exit"<<endl;
 		cout<<endl<<endl;
 		cout<<"Enter your choice : ";
 		cin>>choice;
@@ -77,7 +86,23 @@ int main()
   			c.div(num1,num2);
   			break;
         //Switch case extended in commit 2 to call * and / functions.
+      case 5:
+  			cout<<"Enter base : ";
+  			cin>>num1;
+  			cout<<"Enter exponent : ";
+  			cin>>num2;
+  			c.pwr(num1,num2);
+  			break;
+  		case 0:
+  			return 0;
+  			break;
+        //Exit case provided in third commit
+  		default:
+  			cout<<"Wrong input";
+  			break;
+        //Default case provided in third commit
 		}
+  }
 	return 0;
   //Program ends here
 }

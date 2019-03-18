@@ -3,3 +3,7 @@ Adding third file in first commit
 
 
 Making changes in third commit
+
+Making final changes in commit 4
+
+Modifying file to test reset

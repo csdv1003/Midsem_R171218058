@@ -1,3 +1,9 @@
 Adding second file in first commit
 
 Making changes in second commit
+
+
+
+Making final changes in commit 4
+
+Modifying file further as asked

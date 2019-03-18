@@ -5,5 +5,8 @@ Making changes in second commit
 
 
 Making final changes in commit 4
+<<<<<<< HEAD
 
 Modifying file further as asked
+=======
+>>>>>>> 0f24f0bb8a3c16604855abdfc7d38d411d0dda42

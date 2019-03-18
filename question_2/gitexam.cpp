@@ -21,6 +21,18 @@ class calc
 			result=n1-n2;
 			cout<<"Result is : "<<result;
 		}
+    void mul(int n1,int n2)
+		{
+      //Multiplication function added in second commit
+			result=n1*n2;
+			cout<<"Result is : "<<result;
+		}
+		void div(int n1,int n2)
+		{
+      //Division function added in second commit
+			result=n1/n2;
+			cout<<"Result is : "<<result;
+		}
 };
 
 int main()
@@ -29,7 +41,7 @@ int main()
 	int num1,num2;
 	calc c;
   //object created
-		cout<<endl<<endl<<"1.Addition"<<endl<<"2. Subtraction"<<endl;
+		cout<<endl<<endl<<"1.Addition"<<endl<<"2. Subtraction"<<endl<<"3. Multiplication"<<endl<<"4. Division"<<endl;
 		cout<<endl<<endl;
 		cout<<"Enter your choice : ";
 		cin>>choice;
@@ -50,6 +62,21 @@ int main()
         cin>>num2;
         c.sub(num1,num2);
 				break;
+      case 3:
+  			cout<<"Enter first number : ";
+        cin>>num1;
+        cout<<"Enter second number : ";
+        cin>>num2;
+        c.mul(num1,num2);
+  			break;
+  		case 4:
+  			cout<<"Enter first number : ";
+        cin>>num1;
+        cout<<"Enter second number : ";
+        cin>>num2;
+  			c.div(num1,num2);
+  			break;
+        //Switch case extended in commit 2 to call * and / functions.
 		}
 	return 0;
   //Program ends here

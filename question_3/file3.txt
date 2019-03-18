@@ -6,4 +6,4 @@ Making changes in third commit
 
 Making final changes in commit 4
 
-Modifying file to test reset
+Editing file to test mixed

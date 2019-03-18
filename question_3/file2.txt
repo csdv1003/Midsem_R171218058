@@ -6,4 +6,4 @@ Making changes in second commit
 
 Making final changes in commit 4
 
-Modifying file further as asked
+Editing file to test mixed

@@ -3,3 +3,5 @@ Adding first file in first commit
 Making changes in second commit
 
 Editing file1 further in third commit
+
+Making final changes in commit 4
